@@ -11,9 +11,9 @@
 
 ## Functional Requirements
 ### Merge
-1. Accept multiple PDF files, and show a small preview of them. 
-2. Should be able to change the order of the PDFs after uploading.
-3. Optional file name for the resultant processed PDF.
+1. Accept multiple PDF files, and show a small preview of them with filename, size in KB, page count. 
+2. Should be able to change the order of the PDFs through drag and drop after uploading.
+3. Optional file name for the resultant processed PDF or defaults to `merged_<timestamp>.pdf`.
 
 ### Split
 1. Should accept only a single file at once.
@@ -21,13 +21,19 @@
    1. **Range**: Accept multiple ranges with add new range button.
    2. **Fixed**: Accept a single number input. Each resultant PDF should have given number of pages. 
    3. **Custom**: Should accept a comma separated string which contains either single page number or page ranges.
+3. Output will be downloaded as PDF if result is one, otherwise zip. 
 
 ### Compress
 1. Should accept only one PDF file
-2. Compress the PDF file to provided size if possible or reduce as much as possible.
-3. Optional file name for the resultant processed PDF.
+2. Target compression size must be smaller than original PDF size.
+3. Optional file name for the resultant processed PDF or defaults to `compressed_original_file_name.pdf`.
 
 ### Password Protection
 1. Should accept only one PDF file
 2. Add / Remove password functionalities are expected with input of a password.
+3. Optional file name for the resultant processed PDF or defaults to `protected/unprotected_original_file_name.pdf`.
 
+## Non-Functional Requirements
+1. Max concurrent jobs = 5 per application. Can be configured via `application.properties`.
+2. Max PDF size = 50MB.
+3. Temporary in-memory storage of PDFs and Passwords.
