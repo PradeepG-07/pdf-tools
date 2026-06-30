@@ -39,7 +39,7 @@
 3. Temporary in-memory storage of PDFs and Passwords.
 
 ## HLD
-[Draw.io](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&layers=1&nav=1&title=PDF%20Tools&transparent=1&dark=1#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uf5GLl4ATf-KOGbpIk_V_fEB4bM1JfVr%26export%3Ddownload)
+[Draw.io](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&layers=1&nav=1&title=PDF%20Tools&dark=1#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uf5GLl4ATf-KOGbpIk_V_fEB4bM1JfVr%26export%3Ddownload)
 
 ## LLD
 [Draw.io](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&layers=1&nav=1&title=PDF%20Tools&page-id=j-ekPqOkfmkwKP3RkU5V&dark=1#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uf5GLl4ATf-KOGbpIk_V_fEB4bM1JfVr%26export%3Ddownload)
